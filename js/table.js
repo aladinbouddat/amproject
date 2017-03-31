@@ -1,1 +1,1 @@
-<script>hallo</script>
+hallo

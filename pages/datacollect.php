@@ -3,26 +3,21 @@
 $url = "http://zuerich.usgang.ch/events.php";
 
 // Zeichenfolge vor relevanten Einträgen
-$startstring = "<table width=\"610\" cellpadding=\"0\" cellspacing=\"0\" class=\"nomargin\">";
+$startstring = "events.php\">";
 
 // bis zum nächsten html tag bzw. Zeichenfolge nach relevanten Einträgen
-$endstring = "</table>";
+$endstring = "<tr>";
 
 $file = @fopen ($url,"r");
 
 $i=0;
 while (!feof($file)) {
-
-// Wenn das File entsprechend groß ist, kann es unter Umständen
-// notwendig sein, die Zahl 2000 entsprechend zu erhöhen. Im Falle
-// eines Buffer-Overflows gibt PHP eine entsprechende Fehlermeldung aus.
-
-$zeile[$i] = fgets($file,200000);
+$zeile[$i] = fgets($file,2000);
 $i++;
 }
 fclose($file);
 
-
+/*
 // Nun werden die Daten entsprechend gefiltert.
 $resultat = "";
 for ($j=0;$j<$i;$j++) {
@@ -33,13 +28,16 @@ $resultat .= str_replace($endstueck,"",$resb);
 
 }
 }
-
-// Ausgabe der Daten
-//echo print_r ($resa);
-//echo ($resultat);
-
+*/
 $string52 = fopen('Zwischenspeicher.txt',"w+") ;
 fwrite($string52,implode($zeile));
-print ($string52);
+print ($zeile[1016]);
+
+/*$v =0;
+$array = [];
+for ($v=1016,$v<1047,$v++){
+
+
+    }*/
 
 ?>

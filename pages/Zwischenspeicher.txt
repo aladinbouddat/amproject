@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
 	<head>
-		<title>Events Freitag, 31. März 2017 - usgang.ch</title>
+		<title>Events Freitag, 07. April 2017 - usgang.ch</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
-<meta property="og:title" content="Events Freitag, 31. März 2017" />
+<meta property="og:title" content="Events Freitag, 07. April 2017" />
 <meta name="content-language" content="de" />
 <meta name="description" content="Die besten Partys für Zürich, Luzern, Bern, Basel, St. Gallen, Romandie und das Tessin." />
 <meta name="author" content="usgang.ch" />
@@ -87,7 +87,7 @@ SmartAdServer(sas_pageid,sas_formatid,sas_target);
 
 -->
 </script>
-<noscript><a href="//www2.smartadserver.com/call/pubjumpi/33559/235370/22931/M/1490996394/?" target="_blank"><img src="//www2.smartadserver.com/call/pubi/33559/235370/22931/M/1490996394/?" border="0" alt="" /></a></noscript>
+<noscript><a href="//www2.smartadserver.com/call/pubjumpi/33559/235370/22931/M/1491549925/?" target="_blank"><img src="//www2.smartadserver.com/call/pubi/33559/235370/22931/M/1491549925/?" border="0" alt="" /></a></noscript>
 </div>
 <script type="text/javascript">
 <!--
@@ -208,7 +208,7 @@ if(sas_noad==false) {
 				// in case nothing helps
 				showConnectButton(true);
 			}
-		},{scope: 'publish_actions', auth_type: 'rerequest'});
+		},{scope: 'publish_actions', auth_tyhttp://zuerich.usgang.ch/events.phppe: 'rerequest'});
 	}
 	
 	/*
@@ -557,56 +557,12 @@ if(sas_noad==false) {
 								<li class="col-xs-12 sub-title mb"><h3 class="h3 text-center">Neuste Party Pictures in Zürich</h3></li>
 	
 	<li class="illustrated-text">
-		<a href="/eventdetail.php?eventid=728965" class="link" target="_self">
+		<a href="/eventdetail.php?eventid=742188" class="link" target="_self">
 			<div class="self-col-xs-7">
 				<div class="inner-left">
 
-					<span class="menu-subtitle">Do. 30. Mär</span>
-					<p class="h3 inner-title">Sting</p>
-					<span class="menu-subtitle pink">
-							<span class="club pink">Samsung Hall</span>, Dübendorf					</span>
-
-				</div>
-			</div>
-
-			<div class="self-col-xs-5">
-					<div class="image" style="background-image: url('http://images.usgang.ch/pictures/728965/728965.jpg')">
-
-					</div>
-			</div>
-
-		</a>
-	</li>
-
-	<li class="illustrated-text">
-		<a href="/eventdetail.php?eventid=740022" class="link" target="_self">
-			<div class="self-col-xs-7">
-				<div class="inner-left">
-
-					<span class="menu-subtitle">Mi. 29. Mär</span>
-					<p class="h3 inner-title">The Open Mic Show</p>
-					<span class="menu-subtitle pink">
-							<span class="club pink">Plaza Klub</span>, Zürich					</span>
-
-				</div>
-			</div>
-
-			<div class="self-col-xs-5">
-					<div class="image" style="background-image: url('http://images.usgang.ch/pictures/740022/740022.jpg')">
-
-					</div>
-			</div>
-
-		</a>
-	</li>
-
-	<li class="illustrated-text">
-		<a href="/eventdetail.php?eventid=727075" class="link" target="_self">
-			<div class="self-col-xs-7">
-				<div class="inner-left">
-
-					<span class="menu-subtitle">Di. 28. Mär</span>
-					<p class="h3 inner-title">Tinie Tempah</p>
+					<span class="menu-subtitle">Do. 06. Apr</span>
+					<p class="h3 inner-title">Silk - "This is my Night"</p>
 					<span class="menu-subtitle pink">
 							<span class="club pink">Mascotte</span>, Zürich					</span>
 
@@ -614,7 +570,51 @@ if(sas_noad==false) {
 			</div>
 
 			<div class="self-col-xs-5">
-					<div class="image" style="background-image: url('http://images.usgang.ch/pictures/727075/727075.jpg')">
+					<div class="image" style="background-image: url('http://images.usgang.ch/pictures/742188/742188.jpg')">
+
+					</div>
+			</div>
+
+		</a>
+	</li>
+
+	<li class="illustrated-text">
+		<a href="/eventdetail.php?eventid=742165" class="link" target="_self">
+			<div class="self-col-xs-7">
+				<div class="inner-left">
+
+					<span class="menu-subtitle">Mi. 05. Apr</span>
+					<p class="h3 inner-title">ZiBBZ</p>
+					<span class="menu-subtitle pink">
+							<span class="club pink">Mascotte</span>, Zürich					</span>
+
+				</div>
+			</div>
+
+			<div class="self-col-xs-5">
+					<div class="image" style="background-image: url('http://images.usgang.ch/pictures/742165/742165.jpg')">
+
+					</div>
+			</div>
+
+		</a>
+	</li>
+
+	<li class="illustrated-text">
+		<a href="/eventdetail.php?eventid=743998" class="link" target="_self">
+			<div class="self-col-xs-7">
+				<div class="inner-left">
+
+					<span class="menu-subtitle">Di. 04. Apr</span>
+					<p class="h3 inner-title">Pathé Ladies Night</p>
+					<span class="menu-subtitle pink">
+							<span class="club pink">Kino Pathé</span>, Dietlikon					</span>
+
+				</div>
+			</div>
+
+			<div class="self-col-xs-5">
+					<div class="image" style="background-image: url('http://images.usgang.ch/pictures/743998/743998.jpg')">
 
 					</div>
 			</div>
@@ -677,12 +677,33 @@ if(sas_noad==false) {
 								<li class="col-xs-12 sub-title mb"><h3 class="h3 text-center">Event Tipps  in Zürich</h3></li>
 
 <li class="illustrated-text">
-	<a href="/eventdetail.php?eventid=738530" class="link" target="_self">
+	<a href="/eventdetail.php?eventid=743277" class="link" target="_self">
 		<div class="self-col-xs-7">
 			<div class="inner-left">
 
 				<span class="menu-subtitle">Heute</span>
-				<p class="h3 inner-title">Homeparty 23+</p>
+				<p class="h3 inner-title">Hit Machine</p>
+				<span class="menu-subtitle pink">
+					<span class="club pink">Hiltl Club</span>, Zürich				</span>
+
+			</div>
+		</div>
+
+		<div class="self-col-xs-5">
+			<div class="image" style="background-image: url('http://static.amiado.com/usgang/uploadfile/eventbutton/743277.jpg?u=bfc599dcb2a2b864025ef5c9b4a2cc6f0afb428d&time=179609')">
+
+			</div>
+		</div>
+
+	</a>
+</li>
+<li class="illustrated-text">
+	<a href="/eventdetail.php?eventid=741816" class="link" target="_self">
+		<div class="self-col-xs-7">
+			<div class="inner-left">
+
+				<span class="menu-subtitle">Heute</span>
+				<p class="h3 inner-title">Bravo Hits Homeparty 23+</p>
 				<span class="menu-subtitle pink">
 					<span class="club pink">Kanzlei Club</span>, Zürich				</span>
 
@@ -690,7 +711,7 @@ if(sas_noad==false) {
 		</div>
 
 		<div class="self-col-xs-5">
-			<div class="image" style="background-image: url('http://static.amiado.com/usgang/uploadfile/eventbutton/738530.jpg?u=bfc599dcb2a2b864025ef5c9b4a2cc6f0afb428d&time=178911')">
+			<div class="image" style="background-image: url('http://static.amiado.com/usgang/uploadfile/eventbutton/741816.jpg?u=bfc599dcb2a2b864025ef5c9b4a2cc6f0afb428d&time=179609')">
 
 			</div>
 		</div>
@@ -698,12 +719,12 @@ if(sas_noad==false) {
 	</a>
 </li>
 <li class="illustrated-text">
-	<a href="/eventdetail.php?eventid=736882" class="link" target="_self">
+	<a href="/eventdetail.php?eventid=739514" class="link" target="_self">
 		<div class="self-col-xs-7">
 			<div class="inner-left">
 
-				<span class="menu-subtitle">Heute</span>
-				<p class="h3 inner-title">Future House Music</p>
+				<span class="menu-subtitle">Sa. 08. Apr</span>
+				<p class="h3 inner-title">Liebe zur Musik</p>
 				<span class="menu-subtitle pink">
 					<span class="club pink">Härterei</span>, Zürich				</span>
 
@@ -711,28 +732,7 @@ if(sas_noad==false) {
 		</div>
 
 		<div class="self-col-xs-5">
-			<div class="image" style="background-image: url('http://static.amiado.com/usgang/uploadfile/eventbutton/736882.jpg?u=bfc599dcb2a2b864025ef5c9b4a2cc6f0afb428d&time=178911')">
-
-			</div>
-		</div>
-
-	</a>
-</li>
-<li class="illustrated-text">
-	<a href="/eventdetail.php?eventid=737150" class="link" target="_self">
-		<div class="self-col-xs-7">
-			<div class="inner-left">
-
-				<span class="menu-subtitle">Sa. 01. Apr</span>
-				<p class="h3 inner-title">Diamonds & Pearls</p>
-				<span class="menu-subtitle pink">
-					<span class="club pink">Q Zürich</span>, Zürich				</span>
-
-			</div>
-		</div>
-
-		<div class="self-col-xs-5">
-			<div class="image" style="background-image: url('http://static.amiado.com/usgang/uploadfile/eventbutton/737150.jpg?u=bfc599dcb2a2b864025ef5c9b4a2cc6f0afb428d&time=178911')">
+			<div class="image" style="background-image: url('http://static.amiado.com/usgang/uploadfile/eventbutton/739514.jpg?u=bfc599dcb2a2b864025ef5c9b4a2cc6f0afb428d&time=179609')">
 
 			</div>
 		</div>
@@ -792,6 +792,52 @@ if(sas_noad==false) {
 
 
 	<li class="illustrated-text">
+		<a href="/magazin/events/67952/diese-moves-solltest-du-an-der-naechsten-party-auf-keinen-fall-ausprobieren" class="link" target="_self">
+			<div class="self-col-xs-7">
+				<div class="inner-left">
+
+					<span class="menu-subtitle">Events</span>
+					<p class="h3 inner-title">Diese Moves solltest du an der nächsten Party auf keinen Fall ausprobieren</p>
+					<span class="menu-subtitle pink">
+						<span class="menu-subtitle pink">Party</span>
+					</span>
+
+				</div>
+			</div>
+
+			<div class="self-col-xs-5">
+				<div class="image" style="background-image: url('http://magazin.usgang.ch/wp-content/uploads/wp-post-thumbnail/VHZ0wS.jpg')">
+
+				</div>
+			</div>
+
+		</a>
+	</li>
+
+	<li class="illustrated-text">
+		<a href="/magazin/events/67328/balaton-sound-festival-2017" class="link" target="_self">
+			<div class="self-col-xs-7">
+				<div class="inner-left">
+
+					<span class="menu-subtitle">Events</span>
+					<p class="h3 inner-title">Balaton Sound Festival 2017</p>
+					<span class="menu-subtitle pink">
+						<span class="menu-subtitle pink">Festival</span>
+					</span>
+
+				</div>
+			</div>
+
+			<div class="self-col-xs-5">
+				<div class="image" style="background-image: url('http://magazin.usgang.ch/wp-content/uploads/wp-post-thumbnail/LoRcrm.jpg')">
+
+				</div>
+			</div>
+
+		</a>
+	</li>
+
+	<li class="illustrated-text">
 		<a href="/magazin/events/67946/freakish-tv-all-good" class="link" target="_self">
 			<div class="self-col-xs-7">
 				<div class="inner-left">
@@ -807,52 +853,6 @@ if(sas_noad==false) {
 
 			<div class="self-col-xs-5">
 				<div class="image" style="background-image: url('http://magazin.usgang.ch/wp-content/uploads/wp-post-thumbnail/DMrdKA.jpg')">
-
-				</div>
-			</div>
-
-		</a>
-	</li>
-
-	<li class="illustrated-text">
-		<a href="/magazin/events/67937/zueri-club-usgang-starter-pack" class="link" target="_self">
-			<div class="self-col-xs-7">
-				<div class="inner-left">
-
-					<span class="menu-subtitle">Events</span>
-					<p class="h3 inner-title">Züri Club Usgang Starter-Pack</p>
-					<span class="menu-subtitle pink">
-						<span class="menu-subtitle pink">Hive</span>
-					</span>
-
-				</div>
-			</div>
-
-			<div class="self-col-xs-5">
-				<div class="image" style="background-image: url('http://magazin.usgang.ch/wp-content/uploads/wp-post-thumbnail/nmIZtT.jpg')">
-
-				</div>
-			</div>
-
-		</a>
-	</li>
-
-	<li class="illustrated-text">
-		<a href="/magazin/lifestyle-people/67928/gymder-das-neue-tinder-fuer-fitnessfreaks" class="link" target="_self">
-			<div class="self-col-xs-7">
-				<div class="inner-left">
-
-					<span class="menu-subtitle">Lifestyle</span>
-					<p class="h3 inner-title">Gymder – das neue Tinder für Fitnessfreaks</p>
-					<span class="menu-subtitle pink">
-						<span class="menu-subtitle pink">App</span>
-					</span>
-
-				</div>
-			</div>
-
-			<div class="self-col-xs-5">
-				<div class="image" style="background-image: url('http://magazin.usgang.ch/wp-content/uploads/wp-post-thumbnail/41GHkQ.jpg')">
 
 				</div>
 			</div>
@@ -924,7 +924,7 @@ SmartAdServer(sas_pageid,sas_formatid,sas_target);
 
 -->
 </script>
-<noscript><a href="//www2.smartadserver.com/call/pubjumpi/33559/235370/14499/S/1490996394/?" target="_blank"><img src="//www2.smartadserver.com/call/pubi/33559/235370/14499/M/1490996394/?" border="0" alt="" /></a></noscript>
+<noscript><a href="//www2.smartadserver.com/call/pubjumpi/33559/235370/14499/S/1491549925/?" target="_blank"><img src="//www2.smartadserver.com/call/pubi/33559/235370/14499/M/1491549925/?" border="0" alt="" /></a></noscript>
 </div>
 <script type="text/javascript">
 <!--
@@ -953,7 +953,7 @@ SmartAdServer(sas_pageid,sas_formatid,sas_target);
 
 -->
 </script>
-<noscript><a href="//www2.smartadserver.com/call/pubjumpi/33559/235370/14501/S/1490996394/?" target="_blank"><img src="//www2.smartadserver.com/call/pubi/33559/235370/14501/M/1490996394/?" border="0" alt="" /></a></noscript>
+<noscript><a href="//www2.smartadserver.com/call/pubjumpi/33559/235370/14501/S/1491549925/?" target="_blank"><img src="//www2.smartadserver.com/call/pubi/33559/235370/14501/M/1491549925/?" border="0" alt="" /></a></noscript>
 </div>
 <script type="text/javascript">
 <!--
@@ -977,7 +977,7 @@ if(sas_noad==false) {
 				
 
 <style type="text/css">
-    .calendar-2017-03-31 {
+    .calendar-2017-04-07 {
         background: #f73182 !important;
         color:white !important;
     }
@@ -990,11 +990,11 @@ if(sas_noad==false) {
             <td colspan="3" class="inhalttitel">
                 <h1>Events:
                     <span class="inhalttitelklein">
-                        Freitag, 31. März 2017                    </span>
+                        Freitag, 07. April 2017                    </span>
                 </h1>
             </td>
 
-                    <input type="hidden" name="date" value="2017-03-31">
+                    <input type="hidden" name="date" value="2017-04-07">
         <td colspan="3" class="inhalttiteldropdown">
             <select name="fsubregion" size="1" class="dropdown" onChange="this.form.submit()">
 <option value="6" selected>Stadt Zürich</option><option value="7">Region Zürich</option></select>
@@ -1007,15 +1007,15 @@ if(sas_noad==false) {
         </tr>
     <tr>
 <td colspan="2" class="inhaltbalkendunkel">Event Tipps</td>
-<td class="inhaltbalkendunkel" colspan="3"><a href="/event_inc/eventsPDF.php?subregion=6&date=2017-03-31" class="inhaltbalkendunkellinks" target="_blank">Als PDF exportieren (drucken)</a></td>
+<td class="inhaltbalkendunkel" colspan="3"><a href="/event_inc/eventsPDF.php?subregion=6&date=2017-04-07" class="inhaltbalkendunkellinks" target="_blank">Als PDF exportieren (drucken)</a></td>
 </tr>
 <tr>
-<td class="inhaltmittel" width="120"><a href="/events.php?fsubregion=6&date=2017-03-31&sort=name&order=asc" class="inhaltlink">Party</a></td><td class="inhaltmittel" width="100"><a href="/events.php?fsubregion=6&date=2017-03-31&sort=location&order=desc" class="inhaltlink">Location</a></td>        <td class="inhaltmittel" width="100">Musikstil</td>
+<td class="inhaltmittel" width="120"><a href="/events.php?fsubregion=6&date=2017-04-07&sort=name&order=asc" class="inhaltlink">Party</a></td><td class="inhaltmittel" width="100"><a href="/events.php?fsubregion=6&date=2017-04-07&sort=location&order=desc" class="inhaltlink">Location</a></td>        <td class="inhaltmittel" width="100">Musikstil</td>
         <td class="inhaltmittel" width="230">Acts</td>
-    <td class="inhaltmittel" width="45"><a href="/events.php?fsubregion=6&date=2017-03-31&sort=time&order=asc" class="inhaltlink">Zeit</a></td>
+    <td class="inhaltmittel" width="45"><a href="/events.php?fsubregion=6&date=2017-04-07&sort=time&order=asc" class="inhaltlink">Zeit</a></td>
     </tr>
-    <tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventbild", "click", "d_event_listing_eventbild_loggedout_klick"); return true;' href="/eventdetail.php?eventid=736882" class="inhaltlink"><img src="/uploadfile/eventbutton/736882.jpg" class="imgborder" width="110" height="75" alt=""></a><br><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=736882" class="inhaltlink">Future House Music</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=2626" class="inhaltlink">Härterei</a></td><td class="inhalthell">Diverses</td><td class="inhalthell">DJs Mike Williams (NL), Brooks (NL), Nathan Rux (D), 7ubo &amp; Cantaffa</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventbild", "click", "d_event_listing_eventbild_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738530" class="inhaltlink"><img src="/uploadfile/eventbutton/738530.jpg" class="imgborder" width="110" height="75" alt=""></a><br><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738530" class="inhaltlink">Homeparty 23+</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=19" class="inhaltlink">Kanzlei Club</a></td><td class="inhalthell">Disco, Hip Hop, House, Open Format</td><td class="inhalthell">DJs Bensai, Redshift</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+    <tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventbild", "click", "d_event_listing_eventbild_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743277" class="inhaltlink"><img src="/uploadfile/eventbutton/743277.jpg" class="imgborder" width="110" height="75" alt=""></a><br><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743277" class="inhaltlink">Hit Machine</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=5653" class="inhaltlink">Hiltl Club</a></td><td class="inhalthell">Diverses</td><td class="inhalthell">DJs Drifter, Double Dice</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventbild", "click", "d_event_listing_eventbild_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741816" class="inhaltlink"><img src="/uploadfile/eventbutton/741816.jpg" class="imgborder" width="110" height="75" alt=""></a><br><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741816" class="inhaltlink">Bravo Hits Homeparty 23+</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=19" class="inhaltlink">Kanzlei Club</a></td><td class="inhalthell">90&#039;s, Hits</td><td class="inhalthell">DJs Sicky Jackson, Louis De Fumer</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
         <tr>
             <td height="10" colspan="5" class="neutral">&nbsp;</td>
         </tr>
@@ -1023,12 +1023,12 @@ if(sas_noad==false) {
 <td colspan="5" class="inhaltbalkendunkel">Alle Events</td>
 </tr>
 <tr>
-<td class="inhaltmittel" width="120"><a href="/events.php?fsubregion=6&date=2017-03-31&sort=name&order=asc" class="inhaltlink">Party</a></td><td class="inhaltmittel" width="100"><a href="/events.php?fsubregion=6&date=2017-03-31&sort=location&order=desc" class="inhaltlink">Location</a></td>        <td class="inhaltmittel" width="100">Musikstil</td>
+<td class="inhaltmittel" width="120"><a href="/events.php?fsubregion=6&date=2017-04-07&sort=name&order=asc" class="inhaltlink">Party</a></td><td class="inhaltmittel" width="100"><a href="/events.php?fsubregion=6&date=2017-04-07&sort=location&order=desc" class="inhaltlink">Location</a></td>        <td class="inhaltmittel" width="100">Musikstil</td>
         <td class="inhaltmittel" width="230">Acts</td>
-    <td class="inhaltmittel" width="45"><a href="/events.php?fsubregion=6&date=2017-03-31&sort=time&order=asc" class="inhaltlink">Zeit</a></td>
+    <td class="inhaltmittel" width="45"><a href="/events.php?fsubregion=6&date=2017-04-07&sort=time&order=asc" class="inhaltlink">Zeit</a></td>
     </tr>
-    <tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739186" class="inhaltlink">Zum Freitag</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=1" class="inhaltlink">2. Akt</a></td><td class="inhalthell">House, Mash Up</td><td class="inhalthell">DJ Elive</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738799" class="inhaltlink">50 Shades of Imhof</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=2" class="inhaltlink">4. Akt</a></td><td class="inhalthell">House</td><td class="inhalthell">DJ Rolf Imhof</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+    <tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742625" class="inhaltlink">Benissimo</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=1" class="inhaltlink">2. Akt</a></td><td class="inhalthell">Open Format</td><td class="inhalthell">DJ Beni S</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742476" class="inhaltlink">Zwei mit Stil</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=2" class="inhaltlink">4. Akt</a></td><td class="inhalthell">House, Tech House, Techno</td><td class="inhalthell">Gusto &amp; Oskar</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
 <tr><td class="inhalthell" colspan="5" style="text-align: center">
 <script type='text/javascript'>
 <!--
@@ -1040,62 +1040,68 @@ sas_target='url=events.php;client=guest';
 SmartAdServer(sas_pageid,sas_formatid,sas_target);
 -->
 </script>
-<noscript><a href="http://www2.smartadserver.com/call/pubjumpi/33559/235370/14677/M/1490996394/?" target="_blank"><img src="http://www2.smartadserver.com/call/pubi/33559/235370/14677/M/1490996394/?" border="0" alt="" /></a></noscript>
+<noscript><a href="http://www2.smartadserver.com/call/pubjumpi/33559/235370/14677/M/1491549925/?" target="_blank"><img src="http://www2.smartadserver.com/call/pubi/33559/235370/14677/M/1491549925/?" border="0" alt="" /></a></noscript>
 </td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742677" class="inhaltlink">Swiss-Örgeler</a></td><td class="inhalthell">Aelplibar</td><td class="inhalthell">Volksmusik</td><td class="inhalthell">Live: Priska Bartholet</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738779" class="inhaltlink">Turn It Up</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=14012" class="inhaltlink">Akt Niederdorf</a></td><td class="inhalthell">Hip Hop, Mash Up, Open Format, Reggaeton, R&#039;n&#039;B</td><td class="inhalthell">DJ Lyfoos</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741823" class="inhaltlink">Marmelada</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=15640" class="inhaltlink">Alice Choo</a></td><td class="inhalthell">Club Classics</td><td class="inhalthell">DJs Djans &amp; Gazdan Paja (SRB), A.S. One, Goldfinger, Jay Anderson, Sky</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742278" class="inhaltlink">Sokratis Malamas</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=43" class="inhaltlink">Alte Kaserne</a></td><td class="inhalthell">Alternative Rock</td><td class="inhalthell">Live: Sokratis Malamas (GR)</td><td class="inhalthell">ab&nbsp;19:30</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740939" class="inhaltlink">Purple Music Night</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=8667" class="inhaltlink">Aubrey</a></td><td class="inhalthell">House</td><td class="inhalthell">DJ Jamie Lewis</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739061" class="inhaltlink">Blackatelle</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=12611" class="inhaltlink">Bagatelle 93</a></td><td class="inhalthell">Hip Hop, Oldschool, R&#039;n&#039;B</td><td class="inhalthell">DJ Stef One</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740945" class="inhaltlink">Ceviche Hispano</a></td><td class="inhalthell">Barrio 5</td><td class="inhalthell">Latin, Pop, Rock</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740039" class="inhaltlink">Gletscherfezzzer</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=13521" class="inhaltlink">Bierhalle Wolf</a></td><td class="inhalthell">Hits, Schlager, Volksmusik</td><td class="inhalthell">Live: Gletscherfezzzer (A)</td><td class="inhalthell">ab&nbsp;17:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738810" class="inhaltlink">So What</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=869" class="inhaltlink">Big Ben Westside</a></td><td class="inhalthell">Rock</td><td class="inhalthell">DJ Grill Master W</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743935" class="inhaltlink">Simply Jazz</a></td><td class="inhalthell">Cafe Black</td><td class="inhalthell">Jazz</td><td class="inhalthell">Live: Simply Jazz</td><td class="inhalthell">ab&nbsp;20:30</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743733" class="inhaltlink">Encuentro Flamenco</a></td><td class="inhalthell">Casa d&#039;Italia</td><td class="inhalthell">Latin</td><td class="inhalthell">Live: Tiziana Culiersi</td><td class="inhalthell">ab&nbsp;20:15</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741925" class="inhaltlink">Funk Shui</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=14912" class="inhaltlink">Club HW</a></td><td class="inhalthell">90&#039;s, Funk, Hip Hop</td><td class="inhalthell">DJs Nadia Naas, Mad Madame</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741104" class="inhaltlink">Salsamania</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=29" class="inhaltlink">Club X-TRA</a></td><td class="inhalthell">Latin</td><td class="inhalthell">DJs Nono, Manuel, Selecta Mao, Emocao</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=737812" class="inhaltlink">Tangotanzen</a></td><td class="inhalthell">El Social</td><td class="inhalthell">Diverses</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;21:30</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740848" class="inhaltlink">Slay</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=7794" class="inhaltlink">Escherwyss</a></td><td class="inhalthell">African Music, Grime, Hip Hop, Diverses</td><td class="inhalthell">DJs Jeev P, Bayou</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738280" class="inhaltlink">M4Music</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=9886" class="inhaltlink">Exil</a></td><td class="inhalthell">Indie, Mundart, Wave</td><td class="inhalthell">Live: Dachs, The Wild Guys, Ursina, Bleu Roi, Yes I&#039;m Very Tired Now</td><td class="inhalthell">ab&nbsp;14:15</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738277" class="inhaltlink">M4Music</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=9886" class="inhaltlink">Exil</a></td><td class="inhalthell">Electropop, Hip Hop, Indie, Nu Disco</td><td class="inhalthell">Live: Odd Beholder, Dawill, Hyperculte, Klyne (NL), Cakes Da Killa (USA), Audio Dope</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741710" class="inhaltlink">Karaoke-Party</a></td><td class="inhalthell">Fambar Zürich</td><td class="inhalthell">Diverses</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;21:30</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739179" class="inhaltlink">An Accident in Paradise</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=11848" class="inhaltlink">Frieda&#039;s Büxe</a></td><td class="inhalthell">House, Techno</td><td class="inhalthell">DJs Sven Väth, Maurizo Schmitz, Pasci</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741313" class="inhaltlink">Nu Icons</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=16796" class="inhaltlink">Gallery</a></td><td class="inhalthell">House, Open Format</td><td class="inhalthell">DJs Acee, Dani Fabrega</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740098" class="inhaltlink">Busted</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=12573" class="inhaltlink">Gonzo</a></td><td class="inhalthell">Hip Hop, Diverses, R&#039;n&#039;B</td><td class="inhalthell">DJs Skor, Redrum</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741547" class="inhaltlink">We Are Classics</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=677" class="inhaltlink">Hard One</a></td><td class="inhalthell">90&#039;s, Hits, Open Format, Pop</td><td class="inhalthell">DJs Louis de Fumer, Baseline</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=736882" class="inhaltlink">Future House Music</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=2626" class="inhaltlink">Härterei</a></td><td class="inhalthell">Diverses</td><td class="inhalthell">DJs Mike Williams (NL), Brooks (NL), Nathan Rux (D), 7ubo &amp; Cantaffa</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738754" class="inhaltlink">DJ Brown13</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=1598" class="inhaltlink">Helsinki Klub</a></td><td class="inhalthell">Hip Hop</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739088" class="inhaltlink">Hit Machine</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=5653" class="inhaltlink">Hiltl Club</a></td><td class="inhalthell">Diverses</td><td class="inhalthell">DJs Double Dice, Rizzle</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739765" class="inhaltlink">Sascha Braemer &amp; N&#039;s Hübsche</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=3125" class="inhaltlink">Hive Club</a></td><td class="inhalthell">House, Techno</td><td class="inhalthell">DJs Sascha Braemer (D), Fat Sushi, Anthik, Herzschwester, Nader, O. Nur &amp; Tajara</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739664" class="inhaltlink">Hide &amp; Groove</a></td><td class="inhalthell">Hotel Atlantis</td><td class="inhalthell">Pop, Worldmusic</td><td class="inhalthell">DJ Leon</td><td class="inhalthell">ab&nbsp;18:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740612" class="inhaltlink">Friday</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=8597" class="inhaltlink">ICON Club</a></td><td class="inhalthell">Hits</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739893" class="inhaltlink">Showroom - Angels Take Over</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=9507" class="inhaltlink">Jade</a></td><td class="inhalthell">Club Classics</td><td class="inhalthell">DJs O-Kay, Big Tex</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738530" class="inhaltlink">Homeparty 23+</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=19" class="inhaltlink">Kanzlei Club</a></td><td class="inhalthell">Disco, Hip Hop, House, Open Format</td><td class="inhalthell">DJs Bensai, Redshift</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=722842" class="inhaltlink">Midnight Confessions</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=20" class="inhaltlink">Kaufleuten</a></td><td class="inhalthell">House</td><td class="inhalthell">DJs Chic Brown, Housetier, Kloë Braun</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740772" class="inhaltlink">Family Affair</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=14964" class="inhaltlink">Kauz</a></td><td class="inhalthell">House, Techno</td><td class="inhalthell">DJs Peter Schumann, M. A., Sampayo</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740230" class="inhaltlink">Enjoy the Night</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=489" class="inhaltlink">Lady Hamilton&#039;s Public House</a></td><td class="inhalthell">House, Mash Up, Diverses</td><td class="inhalthell">DJ Knox</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740628" class="inhaltlink">Tropical Heat</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=16447" class="inhaltlink">Lexy</a></td><td class="inhalthell">House, Tech House</td><td class="inhalthell">DJs Crussen (NOR), Caleesi (D), Sentiment, Stiglitz</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=737967" class="inhaltlink">The Royal Flush</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=30" class="inhaltlink">Mascotte</a></td><td class="inhalthell">Club Classics, Hip Hop, Diverses, Pop, Rock</td><td class="inhalthell">DJs Ray Douglas, Mike Steez</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740973" class="inhaltlink">Winter-Sale</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=13019" class="inhaltlink">Mausefalle</a></td><td class="inhalthell">Disco, Diverses, Pop, Schlager</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740604" class="inhaltlink">Keltic Scent</a></td><td class="inhalthell">Mimos</td><td class="inhalthell">Worldmusic</td><td class="inhalthell">Live: Keltic Scent</td><td class="inhalthell">ab&nbsp;19:30</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738340" class="inhaltlink">M4Music</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=26" class="inhaltlink">Moods</a></td><td class="inhalthell">Electropop, Hip Hop, Pop</td><td class="inhalthell">Live: Baze, Mister Milano, James Hersey (A/USA)</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740078" class="inhaltlink">King Knights</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=13689" class="inhaltlink">Nelson Pub Zürich</a></td><td class="inhalthell">Hits, Reggaeton</td><td class="inhalthell">DJ Nick</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738485" class="inhaltlink">Zürich Pub Crawl</a></td><td class="inhalthell">Paradeplatz Zürich</td><td class="inhalthell">Hip Hop, House, Diverses</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743801" class="inhaltlink">Burning Velvet</a></td><td class="inhalthell">Photobastei</td><td class="inhalthell">Folk, Indie, Jazz</td><td class="inhalthell">Live: Burning Velvet (DK), Long Tall Jefferson, Poor Nameless Boy (CAN)</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739908" class="inhaltlink">Plaze To Be</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=11845" class="inhaltlink">Plaza Klub</a></td><td class="inhalthell">Club Classics, Hip Hop, Partytunes, Reggaeton, R&#039;n&#039;B</td><td class="inhalthell">DJs K-Rim, K-Risma, Big Boys, Mykel Rozenberg &amp; Mwp</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739976" class="inhaltlink">Nighthawk Express</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=127" class="inhaltlink">PurPur</a></td><td class="inhalthell">Hits, Mash Up, R&#039;n&#039;B</td><td class="inhalthell">DJ Urs Diethelm</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740149" class="inhaltlink">Bonne chance</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=11681" class="inhaltlink">Q Zürich</a></td><td class="inhalthell">Club Classics</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741494" class="inhaltlink">One Two Bigband Plays Andrews Sisters</a></td><td class="inhalthell">Restaurant Falcone</td><td class="inhalthell">Swing</td><td class="inhalthell">Live: One Two Bigband</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738567" class="inhaltlink">Fridays&#039; Night</a></td><td class="inhalthell">Salsarica</td><td class="inhalthell">Bachata, Latin, Diverses, Salsa</td><td class="inhalthell">DJs Pepe, Palmar, U.S. Thaler, Salto, De Nada, Michael</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738282" class="inhaltlink">M4Music</a></td><td class="inhalthell">Schiffbauhalle</td><td class="inhalthell">Hip Hop, Indie, Diverses</td><td class="inhalthell">Live: Nemo, Roosevelt (D), Young Fathers (GB), The Shins (USA)</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738321" class="inhaltlink">M4Music</a></td><td class="inhalthell">Schiffbauhalle</td><td class="inhalthell">Blues, Electropop, Indie</td><td class="inhalthell">Live: Sailor &amp; I (SWE), Alma (FIN), Fai Baba, Jeans for Jesus, Jan Blomqvist &amp; Band (D)</td><td class="inhalthell">ab&nbsp;20:30</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740240" class="inhaltlink">Katzenfutter</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=36" class="inhaltlink">Supermarket</a></td><td class="inhalthell">Deep House, Elektr. Musik, Techno</td><td class="inhalthell">DJs Clausette, Yazz Ewok, Patrischa, Natal Error, Minimonimoo</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=729074" class="inhaltlink">In Flames</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=5051" class="inhaltlink">Theater11</a></td><td class="inhalthell">Metal, Rock</td><td class="inhalthell">Live: In Flames (SWE)</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=733204" class="inhaltlink">Frank</a></td><td class="inhalthell">Unendlich &amp; Eins</td><td class="inhalthell">Jazz, Soul</td><td class="inhalthell">Live: Frank</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=736628" class="inhaltlink">The Temptations Review feat. Glenn Leonard - abgesagt</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=161" class="inhaltlink">Volkshaus Zürich</a></td><td class="inhalthell">Pop, Soul</td><td class="inhalthell">Live: The Temptations Review feat. Glenn Leonard (USA)</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=737149" class="inhaltlink">Werkstattkonzert</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=1388" class="inhaltlink">WIM - Werkstatt für improvisierte Musik</a></td><td class="inhalthell">Jazz</td><td class="inhalthell">Live: Strinning-Künzi-Newton</td><td class="inhalthell">ab&nbsp;20:15</td></tr>
-<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739854" class="inhaltlink">Motoguzzi Labelnight</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=2761" class="inhaltlink">Zukunft</a></td><td class="inhalthell">Elektr. Musik</td><td class="inhalthell">DJs Don Williams (D), Andaloop, Jaques Le Mac &amp; Action Thompson 300</td><td class="inhalthell">ab&nbsp;23:59</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744976" class="inhaltlink">Echo vom Locherguet</a></td><td class="inhalthell">Aelplibar</td><td class="inhalthell">Volksmusik</td><td class="inhalthell">Live: Echo vom Locherguet</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742502" class="inhaltlink">Feel the Heat</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=14012" class="inhaltlink">Akt Niederdorf</a></td><td class="inhalthell">Hip Hop, Mash Up, R&#039;n&#039;B</td><td class="inhalthell">DJ Garcia</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742776" class="inhaltlink">Der Dritte Raum</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=43" class="inhaltlink">Alte Kaserne</a></td><td class="inhalthell">Techno</td><td class="inhalthell">DJs Der Dritte Raum, Pablo Einzig, Vanita, Gelber</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743608" class="inhaltlink">Eis-Tiger-Party</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=11126" class="inhaltlink">Amboss Rampe</a></td><td class="inhalthell">Club Classics</td><td class="inhalthell">DJs Muri, Jovi, José</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744965" class="inhaltlink">After Work</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=8667" class="inhaltlink">Aubrey</a></td><td class="inhalthell">Funk, Pop, R&#039;n&#039;B, Soul</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;17:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=745039" class="inhaltlink">We Love Classics</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=8667" class="inhaltlink">Aubrey</a></td><td class="inhalthell">Club Classics</td><td class="inhalthell">DJ Platinum</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744479" class="inhaltlink">Funk It Up</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=12611" class="inhaltlink">Bagatelle 93</a></td><td class="inhalthell">Funk</td><td class="inhalthell">DJ Spruzzi</td><td class="inhalthell">ab&nbsp;22:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744434" class="inhaltlink">Sadio Cissokho</a></td><td class="inhalthell">Barrio 5</td><td class="inhalthell">African Music</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;20:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744419" class="inhaltlink">Boogie Circle</a></td><td class="inhalthell">Barrio 5</td><td class="inhalthell">Diverses, Swing</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742545" class="inhaltlink">Top Party Band</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=13521" class="inhaltlink">Bierhalle Wolf</a></td><td class="inhalthell">Pop, Rock, Worldmusic</td><td class="inhalthell">Live: Top Party Band (SLO)</td><td class="inhalthell">ab&nbsp;17:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742498" class="inhaltlink">So What</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=869" class="inhaltlink">Big Ben Westside</a></td><td class="inhalthell">Rock</td><td class="inhalthell">DJ Grill Master W</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744731" class="inhaltlink">Olivieri Jazz</a></td><td class="inhalthell">Cafe Black</td><td class="inhalthell">Jazz</td><td class="inhalthell">Live: Olivieri Jazz</td><td class="inhalthell">ab&nbsp;20:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=735174" class="inhaltlink">Sounds better with You</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=13959" class="inhaltlink">Club Bellevue</a></td><td class="inhalthell">Elektr. Musik</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=727081" class="inhaltlink">Rollschuh Disco</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=29" class="inhaltlink">Club X-TRA</a></td><td class="inhalthell">Pop, Rock</td><td class="inhalthell">DJs Tom Orrow &amp; Kidd Andy, Silvio Saint</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742258" class="inhaltlink">Stego &amp; Rigid Dynasty</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=14" class="inhaltlink">Dynamo</a></td><td class="inhalthell">Hip Hop, Pop, Soul</td><td class="inhalthell">Live: Stego &amp; Rigid Dynasty</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743262" class="inhaltlink">Möaad V</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=14" class="inhaltlink">Dynamo</a></td><td class="inhalthell">Hip Hop, Punk, Techno</td><td class="inhalthell">Live: Ryler Smith, Abraxas Axents, Killjoy, Shift</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=737923" class="inhaltlink">Tangotanzen</a></td><td class="inhalthell">El Social</td><td class="inhalthell">Diverses</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;21:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744153" class="inhaltlink">Ping Pong Lounge</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=7794" class="inhaltlink">Escherwyss</a></td><td class="inhalthell">Club Classics</td><td class="inhalthell">DJ Super Mario</td><td class="inhalthell">ab&nbsp;18:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744150" class="inhaltlink">Afro</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=7794" class="inhaltlink">Escherwyss</a></td><td class="inhalthell">African Music</td><td class="inhalthell">DJs Deejay WR, Bore</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743238" class="inhaltlink">Tigers Don&#039;t Cry</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=9886" class="inhaltlink">Exil</a></td><td class="inhalthell">Elektr. Musik</td><td class="inhalthell">DJs Batuk, Alma Negra, Tillup, Jacques Le Mac, Alexis Haupt</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742654" class="inhaltlink">Magic Mike Friday</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=5610" class="inhaltlink">Flamingo</a></td><td class="inhalthell">House, Latin, Mash Up, Pop, R&#039;n&#039;B</td><td class="inhalthell">DJs J-Style, Alex</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744362" class="inhaltlink">10 Jahre Party Garantie</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=11848" class="inhaltlink">Frieda&#039;s Büxe</a></td><td class="inhalthell">House, Techno</td><td class="inhalthell">DJs Juli N. More (D), Bonny &amp; Clyde, Das Schaf, Matija, Nader, Nici Faerber, Alburt, Hug &amp; Schiemann</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744021" class="inhaltlink">Saint Tangerine Convention</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=12573" class="inhaltlink">Gonzo</a></td><td class="inhalthell">Diverses, Rock</td><td class="inhalthell">Live: Saint Tangerine Convention</td><td class="inhalthell">ab&nbsp;21:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744017" class="inhaltlink">Thompson</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=12573" class="inhaltlink">Gonzo</a></td><td class="inhalthell">Funk, Indie, Pop, Rock, Soul</td><td class="inhalthell">DJs Guerolito, The Wild Child</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739536" class="inhaltlink">Boris Brejcha with Ann Clue</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=2626" class="inhaltlink">Härterei</a></td><td class="inhalthell">Minimal, Techno</td><td class="inhalthell">DJs Boris Brejcha (D), Ann Clue (D), Kantarik, Onory</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742781" class="inhaltlink">Europa Neue Leichtigkeit</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=1598" class="inhaltlink">Helsinki Klub</a></td><td class="inhalthell">Elektr. Musik, Pop, Schlager</td><td class="inhalthell">Live: Europa Neue Leichtigkeit, Erneuerbare Energien</td><td class="inhalthell">ab&nbsp;21:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742750" class="inhaltlink">DJ-Team Akten Vernichter</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=1598" class="inhaltlink">Helsinki Klub</a></td><td class="inhalthell">80&#039;s, Hip Hop, Diverses</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;23:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743277" class="inhaltlink">Hit Machine</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=5653" class="inhaltlink">Hiltl Club</a></td><td class="inhalthell">Diverses</td><td class="inhalthell">DJs Drifter, Double Dice</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742489" class="inhaltlink">Stil vor Talent</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=3125" class="inhaltlink">Hive Club</a></td><td class="inhalthell">House, Techno</td><td class="inhalthell">DJs Klangkuenstler (D), Teenage Mutants (D), Fat Sushi, Anthik, Patrischa, Riccardo De Cicco</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=739666" class="inhaltlink">Hide &amp; Groove</a></td><td class="inhalthell">Hotel Atlantis</td><td class="inhalthell">Pop</td><td class="inhalthell">Live: Truss Rod</td><td class="inhalthell">ab&nbsp;18:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741641" class="inhaltlink">Bamboo</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=9507" class="inhaltlink">Jade</a></td><td class="inhalthell">Hip Hop, R&#039;n&#039;B</td><td class="inhalthell">DJs Kudos (E), O-Kay</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741816" class="inhaltlink">Bravo Hits Homeparty 23+</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=19" class="inhaltlink">Kanzlei Club</a></td><td class="inhalthell">90&#039;s, Hits</td><td class="inhalthell">DJs Sicky Jackson, Louis De Fumer</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742136" class="inhaltlink">Das Zelt Gala 2017</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=13942" class="inhaltlink">Kasernenareal Zürich</a></td><td class="inhalthell">&nbsp;</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;17:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740341" class="inhaltlink">Made in the 90s</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=20" class="inhaltlink">Kaufleuten</a></td><td class="inhalthell">90&#039;s</td><td class="inhalthell">Live: Dr. Alban (NL)<br />
+DJs Rolf Imhof, Pitsch</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744271" class="inhaltlink">Surrealistenball - Aesthetics</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=14964" class="inhaltlink">Kauz</a></td><td class="inhalthell">House, Techno</td><td class="inhalthell">DJs Louh, Siegwart, Douala, No More Tears</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744676" class="inhaltlink">Girls, Girls, Girls...</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=489" class="inhaltlink">Lady Hamilton&#039;s Public House</a></td><td class="inhalthell">Hits, Diverses</td><td class="inhalthell">Live: Carlos Rivera</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744931" class="inhaltlink">Friday Love</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=847" class="inhaltlink">Le Petit Prince</a></td><td class="inhalthell">90&#039;s, Disco, Hits, House</td><td class="inhalthell">DJ Riccardo Milano</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744160" class="inhaltlink">Maras</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=16447" class="inhaltlink">Lexy</a></td><td class="inhalthell">House, Tech House</td><td class="inhalthell">DJs Jacques Obsone, Nini Panini &amp; Lakuru, Santarico</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742149" class="inhaltlink">The Royal Flush</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=30" class="inhaltlink">Mascotte</a></td><td class="inhalthell">Club Classics, Hip Hop, Diverses, Pop, Rock</td><td class="inhalthell">DJs Mike Steez, Johnny Roxx</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744305" class="inhaltlink">XXXL Birthday Party</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=13019" class="inhaltlink">Mausefalle</a></td><td class="inhalthell">Disco, Diverses, Pop, Schlager</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743177" class="inhaltlink">Zurich Jazz Orchestra</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=2536" class="inhaltlink">Mehrspur</a></td><td class="inhalthell">Jazz</td><td class="inhalthell">Live: Zurich Jazz Orchestra</td><td class="inhalthell">ab&nbsp;20:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744418" class="inhaltlink">Everyday Sidekicks</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=3665" class="inhaltlink">Memphis Bar</a></td><td class="inhalthell">Metal, Rock</td><td class="inhalthell">Live: Everyday Sidekicks (GB)</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744031" class="inhaltlink">Blaty-Brunner&#039;s Trio</a></td><td class="inhalthell">Mimos</td><td class="inhalthell">Worldmusic</td><td class="inhalthell">Live: Blaty-Brunner&#039;s Trio</td><td class="inhalthell">ab&nbsp;19:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742368" class="inhaltlink">Cold Night in Soho</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=26" class="inhaltlink">Moods</a></td><td class="inhalthell">Diverses, Punk</td><td class="inhalthell">Live: The Tiger Lillies</td><td class="inhalthell">ab&nbsp;20:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742366" class="inhaltlink">Lauter durch die Nacht</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=26" class="inhaltlink">Moods</a></td><td class="inhalthell">Diverses, Pop, Rock&#039;n&#039;Roll, Worldmusic</td><td class="inhalthell">Live: Simon Kwe, Mariachi de Jesús Guatemala, Space Tourists u.a.</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744439" class="inhaltlink">Super Friday</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=13689" class="inhaltlink">Nelson Pub Zürich</a></td><td class="inhalthell">Deep House, Diverses</td><td class="inhalthell">DJ Nikolaz</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=731376" class="inhaltlink">Giant Rooks</a></td><td class="inhalthell">Photobastei</td><td class="inhalthell">Folk, Indie, Pop</td><td class="inhalthell">Live: Giant Rooks (D)</td><td class="inhalthell">ab&nbsp;20:30</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742009" class="inhaltlink">Lollipop</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=11845" class="inhaltlink">Plaza Klub</a></td><td class="inhalthell">Schlager</td><td class="inhalthell">DJs Wollana, Rolly &amp; Käpten Lollipop, Adrinardi</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743477" class="inhaltlink">Nighthawk Express</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=127" class="inhaltlink">PurPur</a></td><td class="inhalthell">Hits, Mash Up, R&#039;n&#039;B</td><td class="inhalthell">DJ Urs Diethelm</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742858" class="inhaltlink">Out of Control</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=11681" class="inhaltlink">Q Zürich</a></td><td class="inhalthell">Club Classics</td><td class="inhalthell">DJ Hardy</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743928" class="inhaltlink">Tsering Purtag&#039;s Rockfuel</a></td><td class="inhalthell">Restaurant Falcone</td><td class="inhalthell">Rock</td><td class="inhalthell">Live: Tsering Purtag&#039;s Rockfuel</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=741885" class="inhaltlink">Fridays&#039; Night</a></td><td class="inhalthell">Salsarica</td><td class="inhalthell">Bachata, Latin, Merengue, Diverses, Salsa</td><td class="inhalthell">DJs Pepe, Palmar, U.S. Thaler, Salto, De Nada, Michael</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=742885" class="inhaltlink">Voodoo Rhythm Night</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=946" class="inhaltlink">Stall 6</a></td><td class="inhalthell">Elektr. Musik</td><td class="inhalthell">Live: King Automatic, Roy &amp; The Devils Motorcycle, DJ: Ramblin&#039; Rose</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744016" class="inhaltlink">Classy Fancy Disco Shit</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=36" class="inhaltlink">Supermarket</a></td><td class="inhalthell">Disco</td><td class="inhalthell">&nbsp;</td><td class="inhalthell">ab&nbsp;23:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=738234" class="inhaltlink">Gambling Night</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=14100" class="inhaltlink">Swiss Casinos Zürich</a></td><td class="inhalthell">House</td><td class="inhalthell">DJ Rolf Imhof</td><td class="inhalthell">ab&nbsp;20:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=744509" class="inhaltlink">Feeling</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=13221" class="inhaltlink">Vior</a></td><td class="inhalthell">Dancehall, Hip Hop, Latin, Reggaeton, R&#039;n&#039;B</td><td class="inhalthell">DJs Double Dice, Black M</td><td class="inhalthell">ab&nbsp;22:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=740374" class="inhaltlink">Werkstattkonzert</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=1388" class="inhaltlink">WIM - Werkstatt für improvisierte Musik</a></td><td class="inhalthell">Jazz</td><td class="inhalthell">Live: Solothurnmann-Balanya, Gasser-Frey-Ulrich</td><td class="inhalthell">ab&nbsp;20:15</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743569" class="inhaltlink">Dancing Fever</a></td><td class="inhalthell">Wunderbar</td><td class="inhalthell">African Music, Dancehall, Reggae</td><td class="inhalthell">DJs Ganja Massive feat. Fyah Mumma-Phlava-Rollah, Simbamara, Gilda, Quilombo Sound</td><td class="inhalthell">ab&nbsp;21:00</td></tr>
+<tr><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventname", "click", "d_event_listing_eventname_loggedout_klick"); return true;' href="/eventdetail.php?eventid=743478" class="inhaltlink">Dekmantel Selectors</a></td><td class="inhalthell"><a onclick='if(ga != undefined)  ga("send", "event", "desktop-event-listing-eventlocation", "click", "d_event_listing_eventlocation_loggedout_klick"); return true;' href="/locationdetail.php?locationid=2761" class="inhaltlink">Zukunft</a></td><td class="inhalthell">Elektr. Musik</td><td class="inhalthell">DJs Young Marco (NL), Lexx</td><td class="inhalthell">ab&nbsp;23:59</td></tr>
 <tr><td class="neutral" colspan="5" align="left" height="10" style="text-align:left"><span class="schrift">&copy; <a href="http://www.cinergy.ch" target="_blank">cinergy</a> in Partnerschaft mit usgang.ch, Kalendereinträge/-promoti<wbr></wbr><span class="word_break"></span>on über <a href="/redirect302/www.eventbooster.ch" target="_blank">eventbooster.ch</a></span></td></tr></table>
 <div class="sidebar">
     <div class="block">
@@ -1152,35 +1158,40 @@ SmartAdServer(sas_pageid,sas_formatid,sas_target);
 <div class="box" id="sidebar-box-6" style="padding:0px;">
 	<div id="sidebar-eventcalendar" style="width:298px; padding:0px;" class="ui-datepicker-inline ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"><table class="ui-datepicker-calendar" style="">
 <tr>
-<td title="Februar" class="monthname calendarnav_prev calendarMonthswitch" style="cursor:pointer;font-size:18px;font-weight:bold;" align="left" ><a title='Events vom Februar 2017' class='noicon' onclick="jQuery('#sidebar-eventcalendar').load('/index/index/calendarbox?cmonth=2&cyear=2017&calendarurl=%2Fevents.php');return false;" href='/events.php?date=2017-2-1'><i class="icon-chevron-left"></i></a></td>
-<td colspan="5" class="monthname" align="right" style="font-size:11px;padding-top:4px; ">März 2017</td>
-<td title="April" class="monthname calendarnav_next calendarMonthswitch" style="cursor:pointer;font-size:18px;font-weight:bold;" align="center" ><a title='Events vom April 2017' class='noicon' onclick="javascript:jQuery('#sidebar-eventcalendar').load('/index/index/calendarbox?cmonth=4&cyear=2017&calendarurl=%2Fevents.php'); return false;" href='/events.php?date=2017-4-1'><i class="icon-chevron-right"></i></a></td>
+<td title="März" class="monthname calendarnav_prev calendarMonthswitch" style="cursor:pointer;font-size:18px;font-weight:bold;" align="left" ><a title='Events vom März 2017' class='noicon' onclick="jQuery('#sidebar-eventcalendar').load('/index/index/calendarbox?cmonth=3&cyear=2017&calendarurl=%2Fevents.php');return false;" href='/events.php?date=2017-3-1'><i class="icon-chevron-left"></i></a></td>
+<td colspan="5" class="monthname" align="right" style="font-size:11px;padding-top:4px; ">April 2017</td>
+<td title="Mai" class="monthname calendarnav_next calendarMonthswitch" style="cursor:pointer;font-size:18px;font-weight:bold;" align="center" ><a title='Events vom Mai 2017' class='noicon' onclick="javascript:jQuery('#sidebar-eventcalendar').load('/index/index/calendarbox?cmonth=5&cyear=2017&calendarurl=%2Fevents.php'); return false;" href='/events.php?date=2017-5-1'><i class="icon-chevron-right"></i></a></td>
 </tr>
 <tr>
 <th class="weekdayname mo">Mo</th><th class="weekdayname di">Di</th><th class="weekdayname mi">Mi</th><th class="weekdayname do">Do</th><th class="weekdayname fr">Fr</th><th class="weekdayname sa">Sa</th><th class="weekdayname" width="14%">So</th>
 </tr>
 <tr class="first-row">
-<td class="ui-datepicker-other-month weekday mon ui-datepicker-days-cell-past calendar-2017-02-27"><a href="/events.php?date=2017-2-27" class="ui-datepicker-other-month weekday mon ui-datepicker-days-cell-past calendar-2017-02-27"> 27 </a></td><td class="ui-datepicker-other-month weekday tue ui-datepicker-days-cell-past calendar-2017-02-28"><a href="/events.php?date=2017-2-28" class="ui-datepicker-other-month weekday tue ui-datepicker-days-cell-past calendar-2017-02-28"> 28 </a></td><td class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-01"><a href="/events.php?date=2017-3-1" class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-01"> 1 </a></td><td class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-02"><a href="/events.php?date=2017-3-2" class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-02"> 2 </a></td><td class="weekday fri ui-datepicker-days-cell-past calendar-2017-03-03"><a href="/events.php?date=2017-3-3" class="weekday fri ui-datepicker-days-cell-past calendar-2017-03-03"> 3 </a></td><td class="weekday sat ui-datepicker-days-cell-past calendar-2017-03-04"><a href="/events.php?date=2017-3-4" class="weekday sat ui-datepicker-days-cell-past calendar-2017-03-04"> 4 </a></td><td class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-03-05"><a href="/events.php?date=2017-3-5" class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-03-05"> 5 </a></td></tr>
-<td class="weekday mon ui-datepicker-days-cell-past calendar-2017-03-06"><a href="/events.php?date=2017-3-6" class="weekday mon ui-datepicker-days-cell-past calendar-2017-03-06"> 6 </a></td><td class="weekday tue ui-datepicker-days-cell-past calendar-2017-03-07"><a href="/events.php?date=2017-3-7" class="weekday tue ui-datepicker-days-cell-past calendar-2017-03-07"> 7 </a></td><td class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-08"><a href="/events.php?date=2017-3-8" class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-08"> 8 </a></td><td class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-09"><a href="/events.php?date=2017-3-9" class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-09"> 9 </a></td><td class="weekday fri ui-datepicker-days-cell-past calendar-2017-03-10"><a href="/events.php?date=2017-3-10" class="weekday fri ui-datepicker-days-cell-past calendar-2017-03-10"> 10 </a></td><td class="weekday sat ui-datepicker-days-cell-past calendar-2017-03-11"><a href="/events.php?date=2017-3-11" class="weekday sat ui-datepicker-days-cell-past calendar-2017-03-11"> 11 </a></td><td class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-03-12"><a href="/events.php?date=2017-3-12" class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-03-12"> 12 </a></td></tr>
-<td class="weekday mon ui-datepicker-days-cell-past calendar-2017-03-13"><a href="/events.php?date=2017-3-13" class="weekday mon ui-datepicker-days-cell-past calendar-2017-03-13"> 13 </a></td><td class="weekday tue ui-datepicker-days-cell-past calendar-2017-03-14"><a href="/events.php?date=2017-3-14" class="weekday tue ui-datepicker-days-cell-past calendar-2017-03-14"> 14 </a></td><td class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-15"><a href="/events.php?date=2017-3-15" class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-15"> 15 </a></td><td class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-16"><a href="/events.php?date=2017-3-16" class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-16"> 16 </a></td><td class="weekday fri ui-datepicker-days-cell-past calendar-2017-03-17"><a href="/events.php?date=2017-3-17" class="weekday fri ui-datepicker-days-cell-past calendar-2017-03-17"> 17 </a></td><td class="weekday sat ui-datepicker-days-cell-past calendar-2017-03-18"><a href="/events.php?date=2017-3-18" class="weekday sat ui-datepicker-days-cell-past calendar-2017-03-18"> 18 </a></td><td class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-03-19"><a href="/events.php?date=2017-3-19" class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-03-19"> 19 </a></td></tr>
-<td class="weekday mon ui-datepicker-days-cell-past calendar-2017-03-20"><a href="/events.php?date=2017-3-20" class="weekday mon ui-datepicker-days-cell-past calendar-2017-03-20"> 20 </a></td><td class="weekday tue ui-datepicker-days-cell-past calendar-2017-03-21"><a href="/events.php?date=2017-3-21" class="weekday tue ui-datepicker-days-cell-past calendar-2017-03-21"> 21 </a></td><td class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-22"><a href="/events.php?date=2017-3-22" class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-22"> 22 </a></td><td class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-23"><a href="/events.php?date=2017-3-23" class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-23"> 23 </a></td><td class="weekday fri ui-datepicker-days-cell-past calendar-2017-03-24"><a href="/events.php?date=2017-3-24" class="weekday fri ui-datepicker-days-cell-past calendar-2017-03-24"> 24 </a></td><td class="weekday sat ui-datepicker-days-cell-past calendar-2017-03-25"><a href="/events.php?date=2017-3-25" class="weekday sat ui-datepicker-days-cell-past calendar-2017-03-25"> 25 </a></td><td class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-03-26"><a href="/events.php?date=2017-3-26" class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-03-26"> 26 </a></td></tr>
-<td class="weekday mon ui-datepicker-days-cell-past calendar-2017-03-27"><a href="/events.php?date=2017-3-27" class="weekday mon ui-datepicker-days-cell-past calendar-2017-03-27"> 27 </a></td><td class="weekday tue ui-datepicker-days-cell-past calendar-2017-03-28"><a href="/events.php?date=2017-3-28" class="weekday tue ui-datepicker-days-cell-past calendar-2017-03-28"> 28 </a></td><td class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-29"><a href="/events.php?date=2017-3-29" class="weekday wed ui-datepicker-days-cell-past calendar-2017-03-29"> 29 </a></td><td class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-30"><a href="/events.php?date=2017-3-30" class="weekday thu ui-datepicker-days-cell-past calendar-2017-03-30"> 30 </a></td><td class="weekday ui-datepicker-days-cell-over fri calendar-day-0 calendar-2017-03-31"><a href="/events.php?date=2017-3-31" class="weekday ui-datepicker-days-cell-over fri calendar-day-0 calendar-2017-03-31"> 31 </a></td><td class="ui-datepicker-other-month ui-datepicker-week-end sat calendar-day-1 calendar-2017-04-01"><a href="/events.php?date=2017-4-1" class="ui-datepicker-other-month ui-datepicker-week-end sat calendar-day-1 calendar-2017-04-01"> 1 </a></td><td class="ui-datepicker-other-month ui-datepicker-week-end sun calendar-day-2 calendar-2017-04-02"><a href="/events.php?date=2017-4-2" class="ui-datepicker-other-month ui-datepicker-week-end sun calendar-day-2 calendar-2017-04-02"> 2 </a></td></table></div>
+<td class="ui-datepicker-other-month mon ui-datepicker-days-cell-past calendar-2017-03-27"><a href="/events.php?date=2017-3-27" class="ui-datepicker-other-month mon ui-datepicker-days-cell-past calendar-2017-03-27"> 27 </a></td><td class="ui-datepicker-other-month tue ui-datepicker-days-cell-past calendar-2017-03-28"><a href="/events.php?date=2017-3-28" class="ui-datepicker-other-month tue ui-datepicker-days-cell-past calendar-2017-03-28"> 28 </a></td><td class="ui-datepicker-other-month wed ui-datepicker-days-cell-past calendar-2017-03-29"><a href="/events.php?date=2017-3-29" class="ui-datepicker-other-month wed ui-datepicker-days-cell-past calendar-2017-03-29"> 29 </a></td><td class="ui-datepicker-other-month thu ui-datepicker-days-cell-past calendar-2017-03-30"><a href="/events.php?date=2017-3-30" class="ui-datepicker-other-month thu ui-datepicker-days-cell-past calendar-2017-03-30"> 30 </a></td><td class="ui-datepicker-other-month fri ui-datepicker-days-cell-past calendar-2017-03-31"><a href="/events.php?date=2017-3-31" class="ui-datepicker-other-month fri ui-datepicker-days-cell-past calendar-2017-03-31"> 31 </a></td><td class="sat sat ui-datepicker-days-cell-past calendar-2017-04-01"><a href="/events.php?date=2017-4-1" class="sat sat ui-datepicker-days-cell-past calendar-2017-04-01"> 1 </a></td><td class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-04-02"><a href="/events.php?date=2017-4-2" class="ui-datepicker-week-end sun ui-datepicker-days-cell-past calendar-2017-04-02"> 2 </a></td></tr>
+<td class="weekday mon ui-datepicker-days-cell-past calendar-2017-04-03"><a href="/events.php?date=2017-4-3" class="weekday mon ui-datepicker-days-cell-past calendar-2017-04-03"> 3 </a></td><td class="weekday tue ui-datepicker-days-cell-past calendar-2017-04-04"><a href="/events.php?date=2017-4-4" class="weekday tue ui-datepicker-days-cell-past calendar-2017-04-04"> 4 </a></td><td class="weekday wed ui-datepicker-days-cell-past calendar-2017-04-05"><a href="/events.php?date=2017-4-5" class="weekday wed ui-datepicker-days-cell-past calendar-2017-04-05"> 5 </a></td><td class="weekday thu ui-datepicker-days-cell-past calendar-2017-04-06"><a href="/events.php?date=2017-4-6" class="weekday thu ui-datepicker-days-cell-past calendar-2017-04-06"> 6 </a></td><td class="weekday ui-datepicker-days-cell-over fri calendar-day-0 calendar-2017-04-07"><a href="/events.php?date=2017-4-7" class="weekday ui-datepicker-days-cell-over fri calendar-day-0 calendar-2017-04-07"> 7 </a></td><td class="weekday sat calendar-day-1 calendar-2017-04-08"><a href="/events.php?date=2017-4-8" class="weekday sat calendar-day-1 calendar-2017-04-08"> 8 </a></td><td class="ui-datepicker-week-end sun calendar-day-2 calendar-2017-04-09"><a href="/events.php?date=2017-4-9" class="ui-datepicker-week-end sun calendar-day-2 calendar-2017-04-09"> 9 </a></td></tr>
+<td class="weekday mon calendar-day-3 calendar-2017-04-10"><a href="/events.php?date=2017-4-10" class="weekday mon calendar-day-3 calendar-2017-04-10"> 10 </a></td><td class="weekday tue calendar-day-4 calendar-2017-04-11"><a href="/events.php?date=2017-4-11" class="weekday tue calendar-day-4 calendar-2017-04-11"> 11 </a></td><td class="weekday wed calendar-day-5 calendar-2017-04-12"><a href="/events.php?date=2017-4-12" class="weekday wed calendar-day-5 calendar-2017-04-12"> 12 </a></td><td class="weekday thu calendar-day-6 calendar-2017-04-13"><a href="/events.php?date=2017-4-13" class="weekday thu calendar-day-6 calendar-2017-04-13"> 13 </a></td><td class="weekday fri calendar-day-7 calendar-2017-04-14"><a href="/events.php?date=2017-4-14" class="weekday fri calendar-day-7 calendar-2017-04-14"> 14 </a></td><td class="weekday sat calendar-day-8 calendar-2017-04-15"><a href="/events.php?date=2017-4-15" class="weekday sat calendar-day-8 calendar-2017-04-15"> 15 </a></td><td class="ui-datepicker-week-end sun calendar-day-9 calendar-2017-04-16"><a href="/events.php?date=2017-4-16" class="ui-datepicker-week-end sun calendar-day-9 calendar-2017-04-16"> 16 </a></td></tr>
+<td class="weekday mon calendar-day-10 calendar-2017-04-17"><a href="/events.php?date=2017-4-17" class="weekday mon calendar-day-10 calendar-2017-04-17"> 17 </a></td><td class="weekday tue calendar-day-11 calendar-2017-04-18"><a href="/events.php?date=2017-4-18" class="weekday tue calendar-day-11 calendar-2017-04-18"> 18 </a></td><td class="weekday wed calendar-day-12 calendar-2017-04-19"><a href="/events.php?date=2017-4-19" class="weekday wed calendar-day-12 calendar-2017-04-19"> 19 </a></td><td class="weekday thu calendar-day-13 calendar-2017-04-20"><a href="/events.php?date=2017-4-20" class="weekday thu calendar-day-13 calendar-2017-04-20"> 20 </a></td><td class="weekday fri calendar-day-14 calendar-2017-04-21"><a href="/events.php?date=2017-4-21" class="weekday fri calendar-day-14 calendar-2017-04-21"> 21 </a></td><td class="weekday sat calendar-day-15 calendar-2017-04-22"><a href="/events.php?date=2017-4-22" class="weekday sat calendar-day-15 calendar-2017-04-22"> 22 </a></td><td class="ui-datepicker-week-end sun calendar-day-16 calendar-2017-04-23"><a href="/events.php?date=2017-4-23" class="ui-datepicker-week-end sun calendar-day-16 calendar-2017-04-23"> 23 </a></td></tr>
+<td class="weekday mon calendar-day-17 calendar-2017-04-24"><a href="/events.php?date=2017-4-24" class="weekday mon calendar-day-17 calendar-2017-04-24"> 24 </a></td><td class="weekday tue calendar-day-18 calendar-2017-04-25"><a href="/events.php?date=2017-4-25" class="weekday tue calendar-day-18 calendar-2017-04-25"> 25 </a></td><td class="weekday wed calendar-day-19 calendar-2017-04-26"><a href="/events.php?date=2017-4-26" class="weekday wed calendar-day-19 calendar-2017-04-26"> 26 </a></td><td class="weekday thu calendar-day-20 calendar-2017-04-27"><a href="/events.php?date=2017-4-27" class="weekday thu calendar-day-20 calendar-2017-04-27"> 27 </a></td><td class="weekday fri calendar-day-21 calendar-2017-04-28"><a href="/events.php?date=2017-4-28" class="weekday fri calendar-day-21 calendar-2017-04-28"> 28 </a></td><td class="weekday sat calendar-day-22 calendar-2017-04-29"><a href="/events.php?date=2017-4-29" class="weekday sat calendar-day-22 calendar-2017-04-29"> 29 </a></td><td class="ui-datepicker-week-end sun calendar-day-23 calendar-2017-04-30"><a href="/events.php?date=2017-4-30" class="ui-datepicker-week-end sun calendar-day-23 calendar-2017-04-30"> 30 </a></td></tr>
+</table></div>
 </div>
-<script type="text/javascript" src='http://feed.events.ch/feed/slideshowjs/25'>	
+	<h2 class="expandable h2 no-border"></h2>
+
+<div class="box only-image" id="sidebar-box-232">
+	<a target="blank" data-js="false" href="/tools/counter/sidebar?id=232"><img src="http://static.amiado.com/amstorage/usgang/upload/3130_image.jpg" /></a>
+</div><script type="text/javascript" src='http://feed.events.ch/feed/slideshowjs/25'>	
 </script>	<h2 class="expandable h2 no-border"></h2>
 
 <div class="box only-image" id="sidebar-box-216">
 	<a target="blank" data-js="false" href="/tools/counter/sidebar?id=216"><img src="http://static.amiado.com/amstorage/usgang/upload/4257_image.png" /></a>
-</div>	<h2 class="expandable h2 no-border"></h2>
-
-<div class="box only-image" id="sidebar-box-213">
-	<a  data-js="false" href="/tools/counter/sidebar?id=213"><img src="http://static.amiado.com/amstorage/usgang/upload/8030_image.jpg" /></a>
 </div><h2 class="expandable h2" id="sidebar-18"><a target="blank" href="/tools/counter/sidebar?id=18" rel="sidebar-box-18">Facebook</a></h2>
 <div class="box" id="sidebar-box-18">
 	<p><div style="margin: 0 0 -20px 10px">
   <iframe src="http://www.facebook.com/plugins/likebox.php?id=30650557424&amp;width=300&amp;connections=10&amp;stream=false&amp;header=false&amp;height=255" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:235px; margin: -10px -4px -4px -10px;" allowTransparency="true"></iframe>
 </div></p> <a target="blank" href="/tools/counter/sidebar?id=18" class="more-link"><img alt="" src="//static.amiado.com/usgang/img/blank.gif" class="dynspriteSmall imgTriangleright"/> mehr</a>
 	<div style="clear:both;"></div>
+</div>	<h2 class="expandable h2 no-border"></h2>
+
+<div class="box only-image" id="sidebar-box-213">
+	<a  data-js="false" href="/tools/counter/sidebar?id=213"><img src="http://static.amiado.com/amstorage/usgang/upload/8030_image.jpg" /></a>
 </div>
 			</div>
 
@@ -1545,7 +1556,7 @@ SmartAdServer(sas_pageid,sas_formatid,sas_target);
 
 	</script>
 
-<!-- ugdb2-int -->
+<!-- ugdb3-int -->
 <!-- Website-Status: OK -->
 <script type="text/javascript">if(typeof wabtn4fg==="undefined"){wabtn4fg=1;h=document.head||document.getElementsByTagName("head")[0],s=document.createElement("script");s.type="text/javascript";s.src="//static.amiado.com/usgang/js/whatsapp-button.js?u=bfc599dcb2a2b864025ef5c9b4a2cc6f0afb428d&language=de";h.appendChild(s);}</script><script>
 
@@ -1601,5 +1612,5 @@ if (jQuery.cookie('ug-mobile.version') == 'desktop'){
 
 </script>
 
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"31b14e4a3d","applicationID":"34286094","transactionName":"YARQMEIDXhECUUwIWllOZxZZTVUUBlxMEhtHCUI=","queueTime":0,"applicationTime":349,"atts":"TENTRgoZTR8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"31b14e4a3d","applicationID":"34286094","transactionName":"YARQMEIDXhECUUwIWllOZxZZTVUUBlxMEhtHCUI=","queueTime":0,"applicationTime":356,"atts":"TENTRgoZTR8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

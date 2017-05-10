@@ -1,32 +1,31 @@
 <?php
 
-$htmlContent = file_get_contents("http://bern.usgang.ch/events.php");
+$htmlContent = file_get_contents("http://zuerich.usgang.ch/events.php");
 
 $DOM = new DOMDocument();
 $DOM->loadHTML($htmlContent);
 
 $content = $DOM->getElementsByTagName('td');
 
-$header =  array('Party','Location','Musikstil','Acts','Zeit');
-
+$j=0;
 foreach($content as $NodeHeader)
 {
-    $aDataTableDetailHTML[] = trim($NodeHeader->textContent);
-}
-print_r($aDataTableDetailHTML);
-
-foreach ($header as $tableheader)
-{
-    $aDataTableHeaderHTML[] = trim($tableheader->textContent);
+    $j+= 1;
+    $Data[] = trim($NodeHeader->textContent);
+    if ($j==106){break;}
 }
 
-$i = 0;
-$j = 0;
-foreach($content as $tablecontent)
+
+$Delete = array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 20);
+
+foreach ($Delete as $D)
 {
-    $aDataTableContentHTML[$j][] = trim($tablecontent->textContent);
-    $i = $i + 1;
-    $j = $i % count($aDataTableHeaderHTML) == 0 ? $j + 1 : $j;
+    unset($Data[$D]);
 }
-print_r($aDataTableContentHTML); die();
+
+$FinalData = array_values($Data);
+
+print_r($FinalData);
+
+
 ?>
